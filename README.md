@@ -1,7 +1,7 @@
 # Model of Systemic Evolution
 
 
-This repository contains a **first-principles simulation framework** of the **Grand Canonical Model of Systemic Evolution**, representing the evolution of organized complexity in a system through a **Hilbert space of information**. 
+Evolution of organized complexity in a system through a **Hilbert space of information**.
 
 The framework abstracts away cultural and biological dependencies to focus on **mathematical invariants**:
 
