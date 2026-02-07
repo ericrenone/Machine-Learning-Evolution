@@ -1,30 +1,57 @@
 # Model of Systemic Evolution
+**How Information Becomes Autonomy**
 
-
-Evolution of organized complexity in a system through a **Hilbert space of information**.
-
-The framework abstracts away cultural and biological dependencies to focus on **mathematical invariants**:
-
-- **S₁ (Inference Primitive):** Logic, optimized for Shannon information density.  
-- **S₂ (Persistence Substrate):** Mass, infrastructure, or memory that stabilizes the system.  
-- **S₃, S₄, S₅ (Operators):** Transport, Gating, and Optimization — fuse logic and substrate into a **self-optimizing latent state**.  
-- **Ω (Synthetic Transition):** Converged global state representing coherent, algorithmic autonomy.  
-
-This simulation demonstrates the **KWFR (Koopman-Wasserstein-Fisher-Rao) path integral**, modeling the evolution of a system from inference to global synthesis.
+This project models how complex systems evolve from raw information to self-optimizing, autonomous states—using mathematical principles to abstract away biological or cultural specifics.
 
 ---
 
-## Features
+## Core Architecture
 
-- Canonical simulation of **S₁ → S₂ → Ω dynamics**
-- High-fidelity **multi-panel visualization**:
-  1. S₁ (Inference) evolution  
-  2. S₂ (Persistence) evolution  
-  3. Ω (Synthetic latent state) evolution  
-  4. Entropy trends (information & substrate coherence)
-- **Canonical transition matrix S₂ → Ω**
-- Summary statistics: final entropy, maximum activation per dimension
-- Fully self-contained with **NumPy and Matplotlib**
-- Deterministic and reproducible with **configurable seed**
+### 1. **Key States**
+| State | Name                | Role                          | Goal                                  |
+|-------|---------------------|-------------------------------|---------------------------------------|
+| S₁    | Inference Primitive | Logic ("Software")            | Maximize information density         |
+| S₂    | Persistence Substrate | Memory ("Hardware")           | Stabilize structure                  |
+| Ω     | Synthetic Latent State | Unified System ("Global")    | Enable autonomous operation          |
+
+### 2. **Evolution Operators**
+- **Transport (S₃)**: Maps logic to physical memory.
+- **Gating (S₄)**: Filters noise (controlled by **β**).
+- **Optimization (S₅)**: Refines memory based on successful logic.
+
+---
+
+## Evolution Path (KWFR)
+The system follows a **3-phase trajectory** from chaos to autonomy:
+
+1. **Phase Alpha (Inference)**: S₁ explores optimal configurations.
+2. **Phase Beta (Relaxation)**: S₂ resists volatility, preserving memory.
+3. **Phase Gamma (Synthesis)**: S₁ + S₂ → Ω. The system "becomes."
+
+---
+
+## Visualizations
+Track system health with:
+- **Evolution Plots**: Real-time state tracking.
+- **Entropy Dynamics**: Balance between information and stability.
+- **Transition Matrix**: Efficiency of S₂ → Ω mapping.
+- **Hyperbolic Mapping** (Optional): Concept clustering.
+
+---
+
+## Technical Details
+- **Language**: Python 3.x
+- **Dependencies**: NumPy, Matplotlib, SciPy
+- **Math**: Shannon Entropy, Wasserstein Transport, Boltzmann Gating
+- **Reproducibility**: Set `np.random.seed` for consistency.
+
+---
+
+## Output Metrics
+- **Max Activation**
+- **Final Entropy**
+*Indicators of a system achieving autonomy.*
+
+> *"Complexity evolves when information finds a substrate to hold it."*
 
 
