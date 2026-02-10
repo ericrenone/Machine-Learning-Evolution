@@ -126,7 +126,7 @@ Together, this shows how **information can evolve into structured, autonomous sy
 
 ## References
 
-1. **Shannon, C. E.** (1948). *A Mathematical Theory of Communication*. Bell System Technical Journal, 27(3,4), 379–423, 623–656.  
+1. **Shannon, C. E.** (1948). *A Mathematical Theory of Communication*. Bell System Technical Journal
    **Contribution to this work:** Provides the foundational theory of information entropy H(X) = -Σ p(x) log p(x), which underpins the S₁ inference dynamics. Shannon's framework quantifies how information content drives the exploration of optimal probability distributions in Phase Alpha.
 
 2. **Cover, T. M., & Thomas, J. A.** (2006). *Elements of Information Theory*, 2nd Edition. Wiley.  
