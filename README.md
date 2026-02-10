@@ -68,7 +68,7 @@ The simulation tracks and reports:
 - **Opportunity Windows:** Count and timing of phase-transition events
 - **Gate Dynamics:** Average and final G(t) state values
 
-> "Complexity evolves when information finds a substrate to hold it."
+> Complexity evolves when information finds a substrate to hold it.
 
 ---
 
